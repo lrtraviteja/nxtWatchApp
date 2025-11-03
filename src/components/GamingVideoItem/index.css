@@ -1,0 +1,6 @@
+.linkElement {
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}

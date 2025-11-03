@@ -1,0 +1,15 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.linkEl {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  text-decoration: none;
+}

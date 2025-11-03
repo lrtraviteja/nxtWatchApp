@@ -1,0 +1,9 @@
+.home-profile-channel-img {
+  height: 20px;
+}
+.linkElement {
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  flex-direction: column;
+}

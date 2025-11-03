@@ -1,0 +1,9 @@
+.link {
+  color: grey;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 2px 10px;
+}

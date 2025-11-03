@@ -1,0 +1,9 @@
+.faFire {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .faFire {
+    font-size: 20px;
+  }
+}

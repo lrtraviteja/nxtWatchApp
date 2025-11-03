@@ -1,0 +1,26 @@
+.searchButton {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 15px;
+  background-color: transparent;
+}
+.retry-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  background-color: #3634a5;
+  padding: 10px;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+}
