@@ -39,8 +39,8 @@ const Login = () => {
     event.preventDefault()
     let u = username
     let p = password
-    if (u.toLowerCase().trim(' ') === 'venky') u = 'rahul'
-    if (p === 'venky@2004') p = 'rahul@2021'
+    if (u.toLowerCase().trim(' ') === 'user') u = 'rahul'
+    if (p === 'password') p = 'rahul@2021'
     const userData = {username: u, password: p}
     const url = 'https://apis.ccbp.in/login'
     const options = {method: 'POST', body: JSON.stringify(userData)}
@@ -77,7 +77,7 @@ const Login = () => {
             id="username"
             value={username}
             type="text"
-            placeholder="venky"
+            placeholder="user"
             className="input"
             onChange={onChangeUsername}
           />
@@ -89,7 +89,7 @@ const Login = () => {
             id="password"
             value={password}
             type={showPassword ? 'text' : 'password'}
-            placeholder="venky@2004"
+            placeholder="password"
             onChange={onChangePassword}
           />
         </Container>
